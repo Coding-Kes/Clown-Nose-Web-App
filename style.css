@@ -1,0 +1,25 @@
+
+
+h3
+{
+    font-size: 25px !important;
+}
+
+
+.btn-warning:hover
+{
+    background-color: limegreen;
+}
+
+canvas
+{
+    animation-name: create;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes create 
+{
+    from{box-shadow: 7px 7px 52px blue;}
+    to{box-shadow: 7px 7px 52px rgb(242, 147, 163);}
+}
